@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+LIBS:spindleMD_v2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F3:STM32F303K8Tx U?
+U 1 1 5C7B8CAF
+P 5800 3850
+F 0 "U?" H 6300 2850 50  0000 C CNN
+F 1 "STM32F303K8Tx" H 6300 2750 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5300 2950 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C94C9F7
+P 5750 5050
+F 0 "#PWR?" H 5750 4800 50  0001 C CNN
+F 1 "GND" H 5755 4877 50  0000 C CNN
+F 2 "" H 5750 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4850 5700 4950
+Wire Wire Line
+	5700 4950 5750 4950
+Wire Wire Line
+	5750 4950 5750 5050
+Wire Wire Line
+	5750 4950 5800 4950
+Wire Wire Line
+	5800 4950 5800 4850
+Connection ~ 5750 4950
+Wire Wire Line
+	5700 2950 5700 2850
+Wire Wire Line
+	5700 2850 5800 2850
+Wire Wire Line
+	5800 2850 5800 2950
+Wire Wire Line
+	5800 2850 5900 2850
+Wire Wire Line
+	5900 2850 5900 2950
+Connection ~ 5800 2850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C94CACA
+P 5800 2550
+F 0 "#PWR?" H 5800 2400 50  0001 C CNN
+F 1 "+3.3V" H 5815 2723 50  0000 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2550 5800 2650
+$Comp
+L Device:C_Small C?
+U 1 1 5C94CBDE
+P 6150 2650
+F 0 "C?" V 5921 2650 50  0000 C CNN
+F 1 "C_Small" V 6012 2650 50  0000 C CNN
+F 2 "" H 6150 2650 50  0001 C CNN
+F 3 "~" H 6150 2650 50  0001 C CNN
+	1    6150 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2650 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	5800 2650 5800 2850
+Wire Wire Line
+	6250 2650 6350 2650
+Wire Wire Line
+	6350 2650 6350 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5C94CD56
+P 6350 2750
+F 0 "#PWR?" H 6350 2500 50  0001 C CNN
+F 1 "GND" H 6355 2577 50  0000 C CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C94D649
+P 5000 2950
+F 0 "R?" H 5059 2996 50  0000 L CNN
+F 1 "10k" H 5059 2905 50  0000 L CNN
+F 2 "" H 5000 2950 50  0001 C CNN
+F 3 "~" H 5000 2950 50  0001 C CNN
+	1    5000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3150 5000 3150
+Wire Wire Line
+	5000 3150 5000 3050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C94D8DA
+P 5000 2750
+F 0 "#PWR?" H 5000 2600 50  0001 C CNN
+F 1 "+3.3V" H 5015 2923 50  0000 C CNN
+F 2 "" H 5000 2750 50  0001 C CNN
+F 3 "" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2750 5000 2850
+Text HLabel 3650 3150 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	3650 3150 5000 3150
+Connection ~ 5000 3150
+$Comp
+L Device:R_Small R?
+U 1 1 5C94DBF8
+P 4900 3350
+F 0 "R?" V 4700 3350 50  0000 C CNN
+F 1 "10k" V 4800 3350 50  0000 C CNN
+F 2 "" H 4900 3350 50  0001 C CNN
+F 3 "~" H 4900 3350 50  0001 C CNN
+	1    4900 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3350 5200 3350
+Wire Wire Line
+	4800 3350 4600 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5C94E043
+P 4600 3450
+F 0 "#PWR?" H 4600 3200 50  0001 C CNN
+F 1 "GND" H 4605 3277 50  0000 C CNN
+F 2 "" H 4600 3450 50  0001 C CNN
+F 3 "" H 4600 3450 50  0001 C CNN
+	1    4600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4600 3450
+Wire Wire Line
+	6300 4450 8050 4450
+Text HLabel 8050 4450 2    50   BiDi ~ 0
+SWDIO
+Text HLabel 8050 4550 2    50   BiDi ~ 0
+SWCLK
+Wire Wire Line
+	6300 4550 8050 4550
+Wire Wire Line
+	5200 4250 3650 4250
+Text HLabel 3650 4250 0    50   Output ~ 0
+SWO
+$EndSCHEMATC

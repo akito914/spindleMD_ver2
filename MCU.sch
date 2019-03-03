@@ -130,10 +130,10 @@ F 3 "" H 5000 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 2750 5000 2850
-Text HLabel 3650 3150 0    50   Input ~ 0
+Text HLabel 3450 3150 0    50   Input ~ 0
 NRST
 Wire Wire Line
-	3650 3150 5000 3150
+	3450 3150 5000 3150
 Connection ~ 5000 3150
 $Comp
 L Device:R_Small R?
@@ -172,7 +172,95 @@ SWCLK
 Wire Wire Line
 	6300 4550 8050 4550
 Wire Wire Line
-	5200 4250 3650 4250
-Text HLabel 3650 4250 0    50   Output ~ 0
+	5200 4250 3450 4250
+Text HLabel 3450 4250 0    50   Output ~ 0
 SWO
+Text HLabel 8050 3150 2    50   Input ~ 0
+I_SENSE
+Text HLabel 8050 3550 2    50   Input ~ 0
+V_SENSE
+Wire Wire Line
+	6300 3150 8050 3150
+Wire Wire Line
+	8050 3550 6300 3550
+Wire Wire Line
+	6300 3950 8050 3950
+Text HLabel 8050 3950 2    50   Input ~ 0
+GATE_AP
+Text HLabel 8050 3850 2    50   Input ~ 0
+GATE_AN
+Wire Wire Line
+	8050 3850 6300 3850
+Text HLabel 8050 4050 2    50   Input ~ 0
+GATE_BP
+Wire Wire Line
+	8050 4050 6300 4050
+Wire Wire Line
+	5200 4050 3450 4050
+Text HLabel 3450 4050 0    50   Input ~ 0
+GATE_BN
+Text HLabel 3450 4550 0    50   Output ~ 0
+UART_TX
+Wire Wire Line
+	3450 4550 5200 4550
+Text HLabel 8050 4150 2    50   Input ~ 0
+UART_RX
+Wire Wire Line
+	6300 4150 8050 4150
+Wire Wire Line
+	5200 4650 3450 4650
+Text HLabel 3450 4650 0    50   BiDi ~ 0
+I2C_SDA
+Text HLabel 8050 4650 2    50   BiDi ~ 0
+I2C_SCL
+Wire Wire Line
+	8050 4650 6300 4650
+Text HLabel 8050 3650 2    50   Input ~ 0
+RE_A
+Wire Wire Line
+	8050 3650 6300 3650
+Text HLabel 8050 3250 2    50   Input ~ 0
+RE_B
+Wire Wire Line
+	8050 3250 6300 3250
+Text HLabel 3450 4150 0    50   Output ~ 0
+LED1
+Text HLabel 3450 4350 0    50   Output ~ 0
+LED2
+Text HLabel 3450 4450 0    50   Output ~ 0
+LED3
+Wire Wire Line
+	3450 4150 5200 4150
+Wire Wire Line
+	5200 4350 3450 4350
+Wire Wire Line
+	3450 4450 5200 4450
+Text HLabel 8050 3750 2    50   Input ~ 0
+USER_BUTTON
+Wire Wire Line
+	8050 3750 6300 3750
+Text HLabel 8050 4250 2    50   Output ~ 0
+SD_Monitor
+Text HLabel 8050 4350 2    50   Input ~ 0
+SHUTDOWN
+Wire Wire Line
+	6300 4250 8050 4250
+Wire Wire Line
+	6300 4350 8050 4350
+Text HLabel 8050 3350 2    50   UnSpc ~ 0
+GPIO_1
+Text HLabel 8050 3450 2    50   UnSpc ~ 0
+GPIO_2
+Text HLabel 3450 3750 0    50   UnSpc ~ 0
+GPIO_3
+Text HLabel 3450 3850 0    50   UnSpc ~ 0
+GPIO_4
+Wire Wire Line
+	3450 3750 5200 3750
+Wire Wire Line
+	5200 3850 3450 3850
+Wire Wire Line
+	8050 3350 6300 3350
+Wire Wire Line
+	6300 3450 8050 3450
 $EndSCHEMATC

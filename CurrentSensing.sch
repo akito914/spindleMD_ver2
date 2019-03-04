@@ -20,7 +20,7 @@ U 1 1 5C78E0F4
 P 5300 3750
 F 0 "U9" H 4700 3150 50  0000 C CNN
 F 1 "ACS712xLCTR-30A" H 4700 3300 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 3400 50  0001 L CIN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5400 3400 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 5300 3750 50  0001 C CNN
 	1    5300 3750
 	1    0    0    -1  
@@ -57,7 +57,7 @@ U 1 1 5C78E2D4
 P 5800 4000
 F 0 "C19" H 5892 4046 50  0000 L CNN
 F 1 "10n" H 5892 3955 50  0000 L CNN
-F 2 "" H 5800 4000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5800 4000 50  0001 C CNN
 F 3 "~" H 5800 4000 50  0001 C CNN
 	1    5800 4000
 	1    0    0    -1  

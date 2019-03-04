@@ -20,7 +20,7 @@ U 1 1 5C7B8CAF
 P 5800 3850
 F 0 "U4" H 6300 2850 50  0000 C CNN
 F 1 "STM32F303K8Tx" H 6300 2750 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5300 2950 50  0001 R CNN
+F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5300 2950 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H 5800 3850 50  0001 C CNN
 	1    5800 3850
 	1    0    0    -1  

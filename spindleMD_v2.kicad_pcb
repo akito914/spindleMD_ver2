@@ -308,12 +308,12 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C7F161A)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 5C8217BB) (tstamp 5C7F161A)
     (at 133 144.5)
     (descr "Mounting Hole 3.2mm, M3, DIN965")
     (tags "mounting hole 3.2mm m3 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0.02 4.268) (layer F.SilkS)
+    (fp_text reference REF** (at 0.02 4.268) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3_DIN965_Pad (at 0 3.8) (layer F.Fab)
@@ -327,12 +327,12 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.6 5.6) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C7F162F)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 5C8217B5) (tstamp 5C7F162F)
     (at 133 55.5)
     (descr "Mounting Hole 3.2mm, M3, DIN965")
     (tags "mounting hole 3.2mm m3 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3_DIN965_Pad (at 0 3.8) (layer F.Fab)
@@ -4032,12 +4032,12 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C7F1605)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 5C8217B0) (tstamp 5C7F1605)
     (at 67 55.5)
     (descr "Mounting Hole 3.2mm, M3, DIN965")
     (tags "mounting hole 3.2mm m3 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3_DIN965_Pad (at 0 3.8) (layer F.Fab)
@@ -4051,12 +4051,12 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.6 5.6) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C7F15F0)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad (layer F.Cu) (tedit 5C8217C0) (tstamp 5C7F15F0)
     (at 67 144.5)
     (descr "Mounting Hole 3.2mm, M3, DIN965")
     (tags "mounting hole 3.2mm m3 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 4.395) (layer F.SilkS)
+    (fp_text reference REF** (at 0 4.395) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3_DIN965_Pad (at 0 3.8) (layer F.Fab)

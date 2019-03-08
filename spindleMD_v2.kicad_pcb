@@ -67,8 +67,8 @@
     (grid_origin 100 100)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010f0_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -90,9 +90,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -5942,7 +5942,7 @@
   (segment (start 121.9075 84.0107) (end 121.9075 83.1725) (width 0.25) (layer F.Cu) (net 67))
   (segment (start 121.9075 83.1725) (end 121.710001 82.975001) (width 0.25) (layer F.Cu) (net 67))
 
-  (zone (net 8) (net_name GNDPWR) (layer B.Cu) (tstamp 5C88708F) (hatch edge 0.508)
+  (zone (net 8) (net_name GNDPWR) (layer B.Cu) (tstamp 5C88ED3C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.5)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1.5))
@@ -6124,7 +6124,7 @@
       )
     )
   )
-  (zone (net 8) (net_name GNDPWR) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 8) (net_name GNDPWR) (layer F.Cu) (tstamp 5C88ED39) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.5)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1.5))
@@ -6416,7 +6416,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5C885284) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5C88ED36) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.5)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1.5))
@@ -6640,7 +6640,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5C88ED33) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.5)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1.5))
@@ -7043,11 +7043,10 @@
     )
     (filled_polygon
       (pts
-        (xy 99.757882 124.23097) (xy 99.853553 124.25) (xy 100.21328 124.25) (xy 100.184234 124.293471) (xy 100.115702 124.638)
-        (xy 100.133001 124.724967) (xy 100.133 132.657) (xy 99.835176 132.657) (xy 99.23498 132.90561) (xy 98.91 133.23059)
-        (xy 98.58502 132.90561) (xy 97.984824 132.657) (xy 97.335176 132.657) (xy 97.073 132.765597) (xy 97.073 124.49575)
-        (xy 97.31775 124.251) (xy 99.405038 124.251) (xy 99.492 124.268298) (xy 99.578962 124.251) (xy 99.578963 124.251)
-        (xy 99.736668 124.219631)
+        (xy 100.184234 124.293471) (xy 100.115702 124.638) (xy 100.133001 124.724967) (xy 100.133 132.657) (xy 99.835176 132.657)
+        (xy 99.23498 132.90561) (xy 98.91 133.23059) (xy 98.58502 132.90561) (xy 97.984824 132.657) (xy 97.335176 132.657)
+        (xy 97.073 132.765597) (xy 97.073 124.49575) (xy 97.31775 124.251) (xy 99.405038 124.251) (xy 99.492 124.268298)
+        (xy 99.578962 124.251) (xy 99.578963 124.251) (xy 99.58399 124.25) (xy 100.21328 124.25)
       )
     )
     (filled_polygon
@@ -7211,7 +7210,7 @@
     (connect_pads (clearance 0.508))
     (min_thickness 0.5)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1.5))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 100 123.5) (xy 101 123.5) (xy 101 124) (xy 99.5 124)

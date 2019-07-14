@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:spindleMD_v2-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -141,7 +141,7 @@ F 3 "" H 7750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mylib:IK0505SA U3
+L spindleMD_v2-rescue:IK0505SA-mylib U3
 U 1 1 5C7D2B90
 P 8450 1650
 F 0 "U3" H 8450 2115 50  0000 C CNN

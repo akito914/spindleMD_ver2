@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:spindleMD_v2-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mylib:ADuM3190 U10
+L spindleMD_v2-rescue:ADuM3190-mylib U10
 U 1 1 5C78FD61
 P 5550 3650
 F 0 "U10" H 5550 4550 50  0000 C CNN

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name spindleMD_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/spindleMD_v2-rescue.lib)(options "")(descr ""))
+)

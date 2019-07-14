@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:spindleMD_v2-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mylib:TLP152 U5
+L spindleMD_v2-rescue:TLP152-mylib U5
 U 1 1 5C7B8F53
 P 4900 1600
 F 0 "U5" H 4900 2125 50  0000 C CNN
@@ -204,7 +204,7 @@ $EndComp
 Wire Wire Line
 	5900 850  5900 950 
 $Comp
-L mylib:TLP152 U6
+L spindleMD_v2-rescue:TLP152-mylib U6
 U 1 1 5C7BBD60
 P 4900 2800
 F 0 "U6" H 4900 3325 50  0000 C CNN
@@ -409,7 +409,7 @@ Wire Wire Line
 	7250 1100 7250 1300
 Connection ~ 7250 1300
 $Comp
-L mylib:TLP152 U7
+L spindleMD_v2-rescue:TLP152-mylib U7
 U 1 1 5C7C69E1
 P 4900 4500
 F 0 "U7" H 4900 5025 50  0000 C CNN
@@ -598,7 +598,7 @@ $EndComp
 Wire Wire Line
 	5900 3750 5900 3850
 $Comp
-L mylib:TLP152 U8
+L spindleMD_v2-rescue:TLP152-mylib U8
 U 1 1 5C7C6A55
 P 4900 5700
 F 0 "U8" H 4900 6225 50  0000 C CNN
